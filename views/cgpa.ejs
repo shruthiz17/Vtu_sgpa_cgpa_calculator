@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs")%> <%- include("./partials/navbar.ejs")%>
+  <body>
+    <div class="container">
+      <div class="cgpa_calculator align-items-center">
+        <center>
+          <br />
+          <!-- class="bg-warning p-2 text-dark bg-opacity-10" -->
+
+          <i
+            ><h3>
+              Enter 0 for semesters not completed
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-exclamation-triangle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"
+                />
+                <path
+                  d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"
+                />
+              </svg></h3></i
+          ><br />
+          <div>
+            <label for="c1s1" class="c1s1">SEM 1</label>
+            <input type="number" max="10" min="0" id="c1s1" />
+            <div class="error" id="err1"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s2" class="c1s1">SEM 2</label>
+            <input type="number"max="10" min="0"id="c1s2" />
+            <div class="error" id="err2"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s3" class="c1s1">SEM 3</label>
+            <input type="number"max="10" min="0" id="c1s3" />
+            <div class="error" id="err3"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s4" class="c1s1">SEM 4</label>
+            <input type="number" max="10" min="0" id="c1s4" />
+            <div class="error" id="err4"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s5" class="c1s1">SEM 5</label>
+            <input type="number" max="10" min="0" id="c1s5" />
+            <div class="error" id="err5"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s6" class="c1s1">SEM 6</label>
+            <input type="number" max="10" min="0" id="c1s6" />
+            <div class="error" id="err6"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s7" class="c1s1">SEM 7</label>
+            <input type="number" max="10" min="0" id="c1s7" />
+            <div class="error" id="err7"></div>
+          </div>
+          <br />
+          <div>
+            <label for="c1s8" class="c1s1">SEM 8</label>
+            <input type="number" max="10" min="0" id="c1s8" />
+            <div class="error" id="err8"></div>
+          </div>
+          <br />
+
+          <button class="btn btn-sm btn-primary marks" onclick="cal_cgpa()">
+            Calculate
+          </button>
+          <button class="btn btn-sm btn-danger marks" onclick="reset_cgpa()">
+            Reset</button
+          ><br /><br />
+          <label for="c1cgpa" class="c1cgpa">CGPA</label>
+          <input
+            type="number"
+            id="c1cgpa"
+            class="border border-dark"
+            disabled
+          /><br /><br />
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+input {
+  width: 150px;
+  height: 30px;
+}
+input:disabled {
+  background-color: white;
+}
+
+/*--------------------------------------------------------- HOMEPAGE ------------------------------------------------------------------*/
+/* #body {
+ 
+  background-image: url("b11.jpg");
+
+} */
+/* / */
+
+#vtu {
+  /* font-family: Anton; */
+  font-family: Archivo;
+  font-weight: bold;
+}
+body{
+  background-image: url(b3.jpg);
+
+}
+
+.sgpa_cgpa_link {
+  color: purple;
+  text-align: center;
+  margin-top: 70px;
+  text-decoration: none;
+}
+
+.signup_login_link {
+  text-align: center;
+  margin: 50px;
+}
+.sgpa_link {
+  color: purple;
+}
+
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+}
+
+.btn-lg {
+  width: 300px;
+}
+
+/*--------------------------------------------------------------------- SEMESTER --------------------------------------------------*/
+.semester_head {
+  color: darkblue;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.semester_list {
+  text-align: center;
+}
+.list-group-item {
+  background-color: transparent;
+  border: 0px;
+  font-weight: 500;
+}
+/*--------------------------------------------------------------------- MARKS --------------------------------------------------*/
+.marks {
+  width: 100px;
+}
+.error {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+}
+
+.marks_list {
+  /* border:2px solid black; */
+  text-align: center;
+  margin: 50px 150px 0 150px;
+  padding: 25px 0 25px 0;
+}
+
+.s1s1:hover,
+.s1s2:hover,
+.s1s3:hover,
+.s1s4:hover,
+.s1s5:hover,
+.s1s6:hover,
+.s1s7:hover,
+.s1s8:hover,
+.s1sgpa:hover,
+.s1per:hover {
+  color: rgb(230, 93, 164);
+}
+
+/*--------------------------------------------------------------------- SIGNUP --------------------------------------------------*/
+
+.signup_page,
+.login_page {
+  text-align: center;
+  margin: 50px 150px 0 150px;
+  padding: 25px 0 25px 0;
+}
+.signup_header:hover,
+.login_header:hover {
+  color: rgb(89, 113, 167);
+}
+
+/*--------------------------------------------------------------------- NAVBAR --------------------------------------------------*/
+
+.nav-link {
+  color: darkblue;
+  font-weight: 600;
+  font-family: "Dancing Script";
+  font-size: 25px;
+}
